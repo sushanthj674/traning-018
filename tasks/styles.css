@@ -1,0 +1,139 @@
+
+.one{
+    height: 1000px;
+    width: 1000px;
+}
+.two{
+    height: 200px;
+    width: 200px;background-color: aquamarine;
+    float: left;
+}
+.three{
+    float: left;
+    background-color: aqua;
+     height: 200px;
+     width:600px ;
+}
+.four{
+    float: right;
+    height: 200px;
+     width: 200px;
+}
+.five{
+    float: left;
+    background-color: rgb(40, 15, 105);
+    height: 100px;
+    width: 200px;
+}
+.six
+{
+    float: left;
+    background-color: blue;
+    width: 100px;
+    
+    height: 100px;
+}
+.seven{
+    float: left;
+    background-color:blueviolet;
+    width: 100px;
+    
+    height: 100px;
+}
+.eight{
+    float: left;
+    height:800px;
+    width:200px ;
+}
+.nine{
+    float: left;
+     background-color: brown;
+     height: 600px;
+     width: 200px;
+}
+.ten{
+    float: left;
+    background-color: burlywood;
+    height: 200px;
+    width:100px;
+}
+.eleven{
+    float: right;
+    background-color:cadetblue;
+    height: 200px;
+    width:100px;
+}
+.twelve{
+    float: right;
+    background-color: chartreuse;
+    height: 200px;
+    width: 800px;
+}
+.thirteen{
+    float: left;
+    width: 200px;
+    height: 600px;
+}
+.fourteen{
+    float: left;
+     height: 400px;
+     width: 100px;
+     background-color: chocolate;
+}
+.fifteen{
+    float: right;
+     height: 400px;
+     width: 100px;
+     background-color:cornflowerblue;
+}
+.sixteen{
+    float: left;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+}
+.seventeen{
+    float: left;
+    width: 100px;
+    height: 600px;
+    background-color: cyan;
+}
+.eighteen{
+    float: right;
+    width: 500px;
+    height:600px ;
+}
+.nineteen{
+    float: left;
+    height: 200px;
+    width: 500px;
+    background-color: darkblue;
+}
+.twenty{
+    float: left;
+    width: 200px;
+    height: 400px;
+}
+.twoone{
+    float: left;
+     width:200px;
+     height:200px ;
+     background-color: darkcyan;
+}
+.twotwo{
+    float: left;
+     background-color: darkgoldenrod;
+     height: 200px;
+     width:100px
+}
+.twothree{
+    float: right;
+     background-color:darkgreen;
+     height: 200px;
+     width:100px;
+}
+.twofour{
+    float: left;
+    background-color: darkkhaki;
+    width: 100px;height: 400px;
+}

@@ -1,0 +1,36 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Event Example</title>
+  <style>
+    /* Add some styling to the div for demonstration purposes */
+    .clickable-div {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Add a div with a unique id and a class for styling -->
+<div id="myDiv" class="clickable-div" onclick="handleClick(this.id)">Click me</div>
+
+<script>
+  // JavaScript function to handle the click event and retrieve the id
+  function handleClick(divId) {
+    alert('Clicked div with id: ' + divId);
+    // You can perform additional actions or logic with the divId
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+/* .size{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    margin-right:25% ;
+} */
+/**/
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h3{
+    font-weight: 350;
+}
+.dark{
+    float: left;
+    margin: 0%;
+    text-align: left;
+    text-overflow: ellipsis;
+    padding:2%;
+    padding-left: 8%;
+    height:170%;
+    width: 30%;    /* total:40% */
+    background-color:rgb(66, 57, 57);
+}
+.light{
+    background-color: burlywood;
+    float: left;
+    margin: 0%;
+    padding: 2%;
+    width: 56%;/*total:60%*/
+    height:170%;
+
+
+}
+#me
+{   
+    margin-top: 10%;
+    margin-bottom: 50px;
+    width:70%;
+    height: 25%;
+    outline: 8px solid white;
+}
+i{
+    display: inline;
+    position: relative;
+    height:25px;
+    width:25px ;
+    background-color: beige;
+}
+
+.name{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 8%;
+    right: 22.5%;
+    width: 126%;
+    height: auto;
+    position: relative;
+    background-color: beige;
+}
+#name{
+    margin-left: 22%;
+}
+h1{
+    font-size:25px;
+}
+h4{
+     font-weight:200 ;
+}
+h2{
+    padding-top: 20;
+   text-transform: uppercase;
+}
+#hr{
+    right: -15;
+    position: relative;
+   border-color:beige;
+}
+hr{
+    border-color:beige;
+}
+
+.inside{
+   
+    padding:0px ;
+  
+    margin-left: 5%;
+    height: fit-content;
+    
+}
+
+ul{
+    list-style:none;
+}
+#li{
+    height: 25%;
+    padding-left: 10px;
+    border-left:3px solid  rgb(177, 177, 155) ;
+    position: relative;
+    
+}
+#span2{
+    position: relative;
+    right: 40px;
+    top: 45px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(177, 177, 155); 
+}
+#span{
+    position: relative;
+    right: 8px;
+    top: 37px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(177, 177, 155);
+}
+.one{
+    padding-left: 30px;
+    border-left:3px solid  rgb(177, 177, 155) ;
+
+}

@@ -1,0 +1,334 @@
+body{
+margin: 0px;
+}
+.top{
+   
+    width: 100%;
+    height:10%;
+    background-color:transparent;
+}
+
+p.logo1,p.menulogo{
+    margin-top:30px ;
+}
+.logo1{  
+    float: left;
+    display: inline-flex;
+    margin-left:10% ;
+   
+   font-size: 25px;
+    color: aliceblue;
+}
+.first{
+    display: block;
+    padding: 1px auto;
+    height: auto;
+    width: 100%;
+    background-image:url('images/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menulogo{
+    float: right;
+    display: inline-flex;
+    margin-right:10% ;
+   font-size: 20px;
+    color: aliceblue;
+}
+#dental{
+    float:left;
+ 
+   font-size: 20px;
+    color: aliceblue;
+}
+#doc{
+    width: 35%;
+    height: 80%;
+    margin-top:4.5%;
+    margin-left: 10%;
+
+}
+.topcontent{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height:30%;
+    width:30%;
+    text-overflow: ellipsis;
+    color: aliceblue;
+    float: right;
+    padding-top: 10%;
+    padding-right: 10%;
+    position: static;
+}
+#contus{
+    border: none;
+    height: 30px;
+    width: 80px;
+    color: #7bc7b5;
+}
+.topdiv{
+    color: aliceblue;
+display: block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    text-overflow: ellipsis;
+float: left;
+height: 37%;
+width: 22%;
+padding: 1.5%;
+}
+#tdv1{
+    background-color: #72cdb8;
+}
+#tdv2{
+    background-color: #73d8c1;
+}
+#tdv3{
+    background-color: #50a995;
+}
+#tdv4{
+    background-color: #30c7b8;
+}
+
+
+.qout{
+    background-image: url('images/quote.png');
+    background-size:20%;
+    background-repeat: no-repeat;
+
+    padding: 5%;
+    margin: 5%;
+    float: left;
+        width: 30%;
+        height:30%;
+        box-shadow: 0px 0px 5px black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#te{
+    color: rgb(96, 107, 116);
+    padding: 5%;
+    margin: 5%;
+    float: right;
+        width: 30%;
+    height:30%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.twone{
+    padding: 0%;
+    color: rgb(96, 107, 116);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    text-overflow: ellipsis;
+    width:35%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.twotwo{
+    width:34% ;
+    height: 50%;
+    float: right;
+    margin-top: 5%;
+    margin-right:10% ;
+    padding:0.5%;
+}
+
+img.twotwo{
+    margin: 2%;
+}
+#learn{
+    height: 30px;
+    border: none;
+    background-color: #72cdb8;
+}
+.three{
+    
+
+    float: left;
+    color: rgb(96, 107, 116);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    padding: 5%;
+    width:90%;
+}
+.threediv{
+    
+    color: aliceblue;
+    display: block;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+        text-overflow: ellipsis;
+    float: left;
+    height: 37%;
+    width: 24%;
+    padding: 2%;
+  color: rgb(116, 128, 124);
+    margin: 2.5%;
+}
+.icons{
+   
+    background-color: #30c7b8;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.four{
+    float: left;
+    display: block;
+    width: 90%;
+    height:50%;
+    padding: 5%;
+   
+}
+.fourone{
+    color: rgb(93, 97, 100);
+   float: left;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+        text-overflow: ellipsis;
+    display: block;
+margin: 5%;
+background-color:transparent;
+height: 60%;
+width: 40%;
+}
+.fourtwo{
+    height: 90%;
+width: 45%;
+float: right;
+}
+.five{
+    float: left;
+    width: 90%;
+    padding: 5%;
+    height: 100%;
+    background-color:transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+#ps{
+    color: rgb(99, 100, 101);
+}
+.fivediv{
+    
+  margin-top: 1%;
+background-color: transparent;
+    float: left;
+    width:30%;
+    height: 70%;
+}
+.fivediv1{
+    margin-top: 3%;
+   
+    background-color: transparent;
+    float:left;
+    width:30%;
+    height: 70%;
+}
+.fivediv2{
+    margin-top: 2%;
+    background-color:transparent;
+    float: left;
+    width:30%;
+    height: 70%;
+}
+.smallfooter{
+    text-align: left;
+    float: left;
+    background-color: #73d8c1;
+    width: 80%;
+    height: auto;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footerin{
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.six
+{   text-align: center;
+    text-overflow: ellipsis;
+    background-color: transparent;
+    padding: 5%;
+    height: 90%;
+    float: left;
+    width: 90%;
+}
+.sixone{
+    padding: 5px;
+    float: left;
+    margin: 5%;
+width: 30%;
+height: 40%;
+margin-left: 200px;
+box-shadow: 0px 0px 5px ;
+text-align: left;
+    text-overflow: ellipsis;
+    text-align: right;
+   
+}
+.sixtwo{
+    width: 30%;
+height: 40%;
+    float: left;
+    margin: 5%;
+    padding: 5px;
+box-shadow: 0px 0px 5px ;
+text-align: right;
+    text-overflow: ellipsis
+}
+.team{
+    float: left;
+    position: relative;
+    height: 300px;
+    bottom: 46px;
+}
+h3{
+    color: #30c7b8;
+}
+#ht{
+    color: #30c7b8;
+    letter-spacing: 10px;
+}
+.seven{
+   height: auto;
+   width:84%;
+    float: left;
+}
+.sevenone{
+    width: 99%;
+    background-color: transparent;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    height: 600px;
+}
+.seventwo{
+    text-overflow: ellipsis;
+    float: right;
+    width:50% ;
+}
+#last{
+    float:left;
+    width: 40%;
+    height: 60%;
+    display: inline;
+   
+}
+#lastbtn{
+    width: 100px;
+    height: 40px;
+}
+.foot{
+float: left;
+width: 20%;
+margin-left: 5%;
+}
+.footer{
+    float: left;
+   margin-left: 45%;
+}

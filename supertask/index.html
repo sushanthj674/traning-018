@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile_page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav">
+                
+                    <button class="btn1">Preview</button>
+                    <button  class="btn2">HTML</button>
+                    <button class="btn2">CSS</button>
+                    <button class="btn2">Download</button>
+                    <!-- <button class="btn3">Actions</button> -->
+                    <select class="btn3" name="Actions" id="">
+                        <option value="">Actions</option>
+                        <option value="User details">user details</option>
+                        <option value="other">Other..</option>
+                    </select>
+                
+            </div>
+        </nav>
+    </header>
+    <aside>
+        <div class="profile">
+            
+            <center>
+                <img src="profile.png" alt="profile">
+                <h2>John Doe</h2>
+                <p id="adress">Full Stack Developer <br>Bay Area,Sanfrancisco,CA</p>
+            </center>
+            <button id="smedia">Follow</button>
+            <button id="smedia2">Message</button>
+            <hr><p><i class="fa-solid fa-globe"></i><b>Website</b></p>
+            <a href="https://bootdey.com"> https://bootdey.com</a>
+            <hr><p><i class="fa-brands fa-github"></i><b>Github</b> </p>
+            <a href="https://github.com">bootdey</a>
+            <hr>
+            <p><i class="fa-brands fa-twitter"id="tw"></i><b>Twitter</b></p>
+            <a href="https://Twitter.com">@booty</a>
+            <hr><p><i class="fa-brands fa-instagram" id="in"></i><b>Instagram</b></p>
+            <a href="https://instagram.com/">bootdey</a>
+            <hr><p><i id="fb" class="fa-brands fa-facebook"></i><b>Facebook</b></p>
+            <a href="https://facebook.com/">bootdey</a>
+        </div>
+    </aside>
+    <main>
+        <div class="form">
+           <form action="">
+            <label for="">Full Name</label>
+            <input autofocus type="text" placeholder="john Doe"><br><br>
+            <label for="">Email</label>
+            <input autofocus type="email" placeholder="john@example.com"><br><br>
+            <label for="">Phone</label>
+            <input autofocus type="tel"placeholder="1234567890" maxlength="10" minlength="10"><br><br>
+            <label for="">Mobile</label>
+            <input autofocus type="tel"placeholder="1234567890" maxlength="10" minlength="10"><br><br>
+            <label for="">Address</label>
+            <input autofocus type="text"placeholder="Bay arena,San francisco,ca"><br><br>
+            <button type="reset" id="smt">Save Changes</button>
+  
+           </form>      </div>
+        <div class="progress">
+            <h2>project Status</h2>
+            <p  class="p">Web Design</p>
+            <progress id="one"value="75" max="100"></progress>
+           <p class="p">WebSite Markup</p>
+           <progress id="two"value="60" max="100"></progress>
+            <p class="p">One Page</p>
+            <progress id="three"value="90" max="100"></progress>
+            <p class="p">Mobile Template</p>
+            <progress id="four"value="35" max="100"></progress>
+            <p class="p">Backend API</p>
+            <progress id="five"value="55" max="100"></progress>
+
+        </div>
+        
+    </main>
+</body>
+</html>

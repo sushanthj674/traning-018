@@ -1,0 +1,184 @@
+body{
+    background-color: rgba(226, 223, 223, 0.694);
+}
+div{
+    border: none;
+}
+button{
+    border: none;
+    color: aliceblue;
+    text-shadow: 0px 0px 5px rgb(120, 145, 155);
+    font-weight:bold;
+    margin-top: 20px;
+width: 100px;
+height: 35px;
+border-radius: 8px;
+box-shadow: 0px 0px 5px;
+}
+.btn1{
+    background-color: rgb(77, 144, 10);
+}
+.btn2{
+    background-color:skyblue ;
+}
+.btn3{
+   
+    padding-left: 20px;
+    border: 0;
+    color: aliceblue;
+    text-shadow: 0px 0px 5px skyblue;
+    font-weight:bold;
+    margin-top: 20px;
+width: 100px;
+height: 35px;
+border-radius: 8px;
+box-shadow: 0px 0px 5px;
+    background-color: indianred;
+}
+.nav{
+    background-color: whitesmoke;
+    padding-left: 450px;
+    margin: 10px;
+    height: 80px;
+    width: auto;
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+}
+.profile{
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 20px;
+    width: 19%;
+    height: 70%;
+    box-shadow: 0px 0px 2px;
+    border-radius: 10px;
+    float: left;
+}
+.form{
+    background-color: whitesmoke;
+   padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 2px;
+
+    width: 74%;
+    height:35%;
+    float: left;
+    border-radius: 10px;
+
+}
+.progress{
+    background-color: whitesmoke;
+    margin: 10px;
+    box-shadow: 0px 0px 2px;
+    padding: 10px;
+    width: 74%;
+    height:60%;
+    float: left;
+    border-radius: 10px;
+}
+img{
+    width: 100px;
+    margin-top:40px ;
+   
+}
+h2{
+    font-family:'Roboto';
+    font-size: 20px;
+}
+#adress{
+    color: rgb(104, 104, 104);
+    font-family:'Roboto';
+    font-size: 10px;
+}
+#smedia{
+    background-color: rgb(13, 117, 222);
+    margin-left: 40px;
+}
+#smedia2{
+    color:  rgb(13, 117, 222);
+    outline: 1px solid rgb(13, 117, 222);
+    box-shadow: 0px 0px 2px;
+}
+p{
+    display: inline;
+
+}a{
+    display: inli ne;
+    float: right;
+    text-decoration: none;
+    color:  rgb(104, 104, 104);
+    margin-left: 5px;
+}
+i{
+    margin-right: 8px;
+}
+#in{
+  
+    color: rgb(163, 10, 74);
+}
+#fb{
+    color: rgb(79, 103, 237);
+}
+#tw{
+    color: rgb(43, 113, 163);
+}
+label{
+    width: 100px;
+    display: inline;
+    
+    font-size: 20px;
+    font-family:'Roboto';
+    float: left;
+}
+input{
+    
+    font-size: 20px;
+    font-family:'Roboto';
+    margin-left: 40px;
+    float: left;
+    display: inline;
+    width: 600px;
+    border: none;
+    box-shadow: 0px 0px 2px;
+    border-radius: 8px;
+}
+#smt{
+    
+    margin-left: 250px;
+    width: 200px;
+    height:40px;
+    background-color: rgb(13, 117, 222);
+}
+.p{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 18px;
+    color: rgb(153, 151, 151);
+}
+progress{
+    width: 600px;
+    
+}
+#one{
+    color: rgb(42, 99, 211);
+}
+#two{
+color: rgb(196, 104, 104);
+}
+#three{
+    color: rgb(47, 90, 4);
+}
+#four{
+color: yellow;
+}
+#five{
+color: rgb(25, 106, 118);
+
+}
+/* .profile:active{
+    align-items: center;
+    width:40%;
+    height:70%;
+    
+  
+} */

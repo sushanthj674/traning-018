@@ -1,0 +1,32 @@
+.out{
+    
+    box-sizing: content-box;
+    border: 2px solid;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 450px;
+}
+table{
+    
+    border: 2px solid;
+}
+.dark{
+    background-color: rgb(47, 137, 53);
+}
+.light{
+    background-color: rgb(212, 216, 211);
+}
+td{
+    border: none;
+    height: 50px;
+    width: 50px;
+}
+h2{
+    color: rgb(103, 106, 106);
+}
+i{
+ margin-left: 10px;
+}
+ h1{
+    text-shadow: 2px 2px 5px green;
+} 

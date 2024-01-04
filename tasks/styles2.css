@@ -1,0 +1,14 @@
+table{
+    border: 1px solid;
+    border-spacing: 0px;
+}
+td{
+   
+    width: 100px;
+    height:100px;
+    border: 0.5px solid;
+   
+}
+.one{
+    background-color: aquamarine;
+}

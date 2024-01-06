@@ -2,9 +2,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>webpage</title>
+    <style>
+        *{
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .top{
+            position: static;
+            float: left;
+            width: 100%;
+            padding-top: 1%;
+            height: 15%;
+            background-color: rgb(89, 89, 231);
+            text-align: center;
+        }
+        .menu{
+            float: left;
+            height: 75%;
+            padding: 2%;
+            width: 34%;
+        }
+        .dark{
+            color: black;
+        }
+        button,input{
+            width: 100%;
+            height: 7%;
+            margin-bottom: 10%;
+        }
+        button{
+            border: none;
+            display: block;
+            border-radius: 2px;
+           
+        }
+
+        span{
+            background-color: white;
+           position:relative;
+            display: inline;
+            bottom: 20px;
+            left: 45%;
+
+        }
+        #blue{
+            background-color: rgb(89, 89, 231);
+        }
+        .darkdiv{
+            background-color: rgb(189, 187, 187);
+        }
+        .weather{
+           
+            width:58%;
+            height:74% ;
+            float: left;
+            padding: 2%;
+        }
+        .values{
+            display: block;
+            padding-top: 2%;
+            padding-left: 5%;
+            padding-bottom: 2%;
+            width: 95%;
+            height: auto;
+            border-radius: 8px ;
+        }
+        .forecast{
+            border-radius: 6px;
+            width:21% ;
+            height: 40%;
+            float: left;
+            margin: 1%;
+            padding:1%;
+        }
+        img{
+            display: block;
+            width: 50px;
+        }
+        .values img{
+            float: right;
+            width: 15%;
+            margin-right: 5%;
+        }
+        #status{
+            display: inline;
+           position: relative;
+           left: 78%;
+        bottom: 30px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="top">
+        <h1>Weather Dashboard</h1>
+    </div>
+    <div class="menu">
+        <h2 class="dark">
+            Enter city name
+        </h2>
+        <input type="text" placeholder="E.g, New York,London ">
+        <button id="blue">search</button>
+        <hr>
+        <span class="dark">or</span>
+        <button class="darkdiv dark">Use Current LOcation</button>
+    </div>
+    <div class="weather">
+        <div class="values" id="blue">
+            <img src="media/sun_2698213.png" alt="">
+            
+            <h3>Location (2023-06-19)</h3>
+            <p>Temparature:18.17 &deg C</p>
+            <p>Wind:4.31 M/S</p>
+            <p>Humidity:76% </p>   
+            <h3 id="status" >mordrate Rain</h3>         
+        </div>
+        <h2 class="dark">4-Day Forecast</h2>
+        <div class="forecast darkdiv">(2023-06-20)
+            <img src="media/sun_2698213.png" alt="">
+            <p>Temparature:18.17 &deg C</p>
+            <p>Wind:4.31 M/S</p>
+            <p>Humidity:76% </p> 
+        </div>
+        <div class="forecast darkdiv">(2023-06-21)
+            <img src="media/sunny_979585.png" alt="">
+            <p>Temparature:18.17 &deg C</p>
+            <p>Wind:4.31 M/S</p>
+            <p>Humidity:76% </p> 
+        </div>
+        <div class="forecast darkdiv">(2023-06-22)
+            <img src="media/storm_1146860.png" alt="">
+            <p>Temparature:18.17 &deg C</p>
+            <p>Wind:4.31 M/S</p>
+            <p>Humidity:76% </p> 
+        </div>
+        <div class="forecast darkdiv">(2023-06-23)
+            <img src="media/cloudy_1163759.png" alt="">
+            <p>Temparature:18.17 &deg C</p>
+            <p>Wind:4.31 M/S</p>
+            <p>Humidity:76% </p> 
+        </div> 
+    </div>
 </body>
 </html>

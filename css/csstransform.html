@@ -4,12 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>transform</title>
     <style>
+
+        body{ 
+            margin: 0px;
+        }
         div{
             text-align: center;
-            width: 220px;
-            height: 220px;
+            width: 20%;
+            height: 33%;
             float:left;
-            margin: 10px;
+            margin: 0px;
         }
         .one{
             background-color: antiquewhite;
@@ -23,7 +27,7 @@
             background-color: yellowgreen;
         }
         .four{
-            background-color: bisque;
+            background-color: rgb(210, 129, 30);
         }
         .five{
             background-color: blue;
@@ -74,8 +78,8 @@
         }
         .seven:hover{
             transform: scale(2,2);
-            /* transform: scalex(2);
-            transform: scaley(2); */
+             transform: scalex(2);
+            transform: scaley(2); 
 
         }
         .eight:hover{
@@ -94,32 +98,45 @@
         .twev:hover{
 
         }
-        /* @keyframes rotate{
-            0%{
-                transform: rotateY(0deg);
-                
-            }
-            100%{
-                transform: rotateY(360deg);
-                
+        @media screen and (max-width:1000px) and (max-width:1000px){
+            div{
+                width:25%;
             }
         }
-        */
+        @media screen and (max-width:400px) and (min-width:200px){
+            div{
+                width:50%;
+            }
+        }
+        @media screen and (max-width:800px) and (min-width:400px){
+            div{
+                width:33%;
+            }
+        }
+            
+       @media screen and (max-width:200px) and (min-width:0px){
+            div{
+                width:100%;
+            }
+       }
     </style>
 </head>
 <body>
-    <div class="one"><h1>hello</h1></div>
-    <div class="two"><h1>hello</h1></div>
-    <div class="three"><h1>hello</h1></div>
-    <div class="four"><h1>hello</h1></div>
-    <div class="five"><h1>hello</h1></div>
-    <div class="six"><h1>hello</h1></div>
-    <div class="seven"><h1>hello</h1></div>
-    <div class="eight"><h1>hello</h1></div>
-    <div class="nine"><h1>hello</h1></div>
-    <div class="ten"><h1>hello</h1></div>
-    <div class="ele"><h1>hello</h1></div>
-    <div class="twev"><h1>hello</h1></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+    <div class="seven"></div>
+    <div class="eight"></div>
+    <div class="nine"></div>
+    <div class="ten"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
     
 </body>
 </html>

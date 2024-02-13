@@ -1,0 +1,142 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <style>
+
+        body{ 
+            margin: 0px;
+        }
+        div{
+            text-align: center;
+            width: 20%;
+            height: 33%;
+            float:left;
+            margin: 0px;
+        }
+        .one{
+            background-color: antiquewhite;
+       
+        }
+        .two{
+            background-color: aqua;
+        }
+        .three{
+            
+            background-color: yellowgreen;
+        }
+        .four{
+            background-color: rgb(210, 129, 30);
+        }
+        .five{
+            background-color: blue;
+        }
+        .six{
+            background-color: blueviolet;
+        }
+        .seven{
+            background-color: brown;
+        }
+        .eight{
+            background-color: burlywood;
+        }
+        .nine{
+            background-color: cadetblue;
+        }
+        .ten{
+            background-color: chartreuse;
+        }
+        .ele{
+            background-color: chocolate;
+        }
+        .twev{
+            background-color: coral;
+        }
+        .one:hover{
+            transform: translate3d(50px,50px,30px);
+            background-color: coral;
+          
+        }
+        .two:hover{
+            transform: translateX(50px);
+        }
+        .three:hover{
+            transform: translateY(50px);
+        }
+        .four:hover{
+            transform: rotate(50deg);
+        }
+        .five:hover{
+            transform: rotatex(50deg);
+        }
+        .six:hover{
+            transform: rotatey(50deg);
+            animation: rotate 3s infinite;
+           
+
+        }
+        .seven:hover{
+            transform: scale(2,2);
+             transform: scalex(2);
+            transform: scaley(2); 
+
+        }
+        .eight:hover{
+            transform: skew(10.5deg);
+        }
+        .nine:hover{
+            transform: matrix(1,-1,1,1,-200,0);
+         
+        }
+        .ten:hover{
+
+        }
+        .ele:hover{
+
+        }
+        .twev:hover{
+
+        }
+        @media screen and (max-width:1000px) and (max-width:1000px){
+            div{
+                width:25%;
+            }
+        }
+        @media screen and (max-width:400px) and (min-width:200px){
+            div{
+                width:50%;
+            }
+        }
+        @media screen and (max-width:800px) and (min-width:400px){
+            div{
+                width:33%;
+            }
+        }
+            
+       @media screen and (max-width:200px) and (min-width:0px){
+            div{
+                width:100%;
+            }
+       }
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+    <div class="seven"></div>
+    <div class="eight"></div>
+    <div class="nine"></div>
+    <div class="ten"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    
+</body>
+</html>

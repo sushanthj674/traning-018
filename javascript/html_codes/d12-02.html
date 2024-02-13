@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</head>
+<body id="two">
+    <div id="cont_div" class="container bg-info text-center p-4">
+        <h1>Hello </h1>
+        <button class="btn btn-lg btn-primary" onclick=my_fun()>click me</button>
+        <button class="btn btn-xl btn-primary" onclick="change_bg() "id="two"> change back ground</button>
+        <script>
+            function my_fun(){
+                alert("hello");
+            }
+            function change_bg(){
+                let conainer=document.getElementById("cont_div");
+                conainer.className="bg-nger";
+                document.getElementById("two").style.backgroundColor = "pink";
+                addEventListener(conainer,function()={
+                alert("helo");
+            });
+            }
+           
+        </script>
+    </div>
+</body>
+</html>

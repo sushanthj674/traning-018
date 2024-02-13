@@ -3,23 +3,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <style>
-        table{
-            border-spacing: 0;
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
-       
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        div{
+           float:left; 
+        }
+        .dark{
+            padding-top: 1%;
+            width: 30%;
+            height: 99%;
+            padding-left: 5%;
+            padding-right: 5%;
+            text-overflow: ellipsis;
+            text-align: center;
+        }
+        .bg_dark{
+            background-color: aquamarine;
+        }
+        .dark_color{
+            color:aquamarine ;
+        }
+        .light_color{
+            color: white;
+        }
+        .black_color{
+            color: rgb(24, 24, 24);
+        }
+        .gray_color{
+            color: rgb(153, 152, 152);
+        }
+        .welcome{
+            margin-top:35%;
+        }
+        button{
+           border: none;
+           outline: 2px solid;
+            width: 40%;
+            height: 7%;
+            border-radius:30px;
+            text-transform: uppercase;
+        }
+        .light button{
+            height: 15%;
+
+        }
+        .light{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 1%;
+            height: 99%;
+            width: 50%;
+            text-align: center;
+        }
+        form{
+            width: 100%;
+            height: 50%;
+        }
+        .icon{
+           outline: 1px solid  rgb(71, 70, 70);
+            height: 40px;
+            width: 40px;
+            overflow: 1px solid;
+            border-radius: 100%;
+            margin: 2%;
+        }
+        .icon i{
+           
+            position: relative;
+            top: 20px;
+           
+        }
+        .i1{
+            margin-left: 38%;
+        }
+        input{
+            font-size: 15px;
+            padding-left: 5%;
+            width: 95%;
+            height: 15%;
+            margin-bottom: 3%;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(218, 243, 218);
+            z-index: 1;
+        }
+        .light i{
+            display: inline;
+            position: relative;
+            left:5%;
+            z-index: 1;
+        }
+        input:hover{
+           transform: scale(1.1);
+           place-content: "enter";
+           padding-left: 10%;
+           width: 95%;
+           font-size: 20px;
+        }
+        .dark i{
+            position: absolute;
+            left: 10px;
+            top: 40px;
+        }
     </style>
 </head>
 <body>
-    <table border="">
-        <tr>
-            <th>date</th>
-            <th>day</th>
-        </tr>
-        <tr>
-            <td>22-01-24</td>
-            <td>monday</td>
-        </tr>
-    </table>
+    <div class="dark bg_dark">
+        <i class="fa-solid fa-globe fa-2xl light_color fa" ></i>
+        <h1 class="light_color welcome">
+            Welcome Friend
+        </h1>
+        <p class="light_color">
+            To keep connected with us please login with your personel info
+        </p>
+        <button class="light_color bg_dark">sign in</button>
+    </div>
+    <div class="light">
+        <h1 class="dark_color">Create Account</h1>
+        
+            <div class="icon i1">
+                <i class="fa-brands fa-facebook-f fa-lg"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-brands fa-twitter fa-lg"></i>
+            </div>
+            <div class="icon">
+                <i class="fa-brands fa-instagram fa-lg"></i>
+            </div><br><br><br><br>
+            <p class="gray_color">or use your email for registration</p>
+            <form action="">
+                <i class="fa-solid fa-user fa-lg gray_color"></i>
+                <input type="text" placeholder="Name" autofocus >
+                <i class="fa-solid fa-envelope fa-lg gray_color"></i> 
+                 <input type="email" placeholder="Email" autocomplete="hello">
+                 <i class="fa-solid fa-unlock fa-lg gray_color"></i>
+                <input type="password" placeholder="Password">
+                <button class="bg_dark light_color">sign up</button>
+            </form>
+    </div>
 </body>
 </html>
